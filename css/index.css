@@ -1,0 +1,59 @@
+body {
+    background-image: url(/images/Padrão\ pokemon.png);
+    background-repeat: none;
+    background-size: 180%;
+    background-color: rgb(36, 36, 36);
+    background-blend-mode: darken;
+    
+}
+.container_principal {
+    font-size: large;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1448px;
+    height: 907px;
+    left: 199px;
+    top: 117px;
+    border: solid #FFCA0E 20px;
+}
+
+.menu_navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #FFEBB9;
+    background-blend-mode: luminosity ;
+    background-size: 1090%;
+    background-blend-mode: color;
+    position: relative;
+    width: 480px;
+    height: 870px;
+    left: 0px;
+    mix-blend-mode: normal;
+    border-right: solid #5C9BAF 20px;
+}
+.menu_navigation .list-menu {
+    
+    
+}
+/* Box do texto principal */
+.box_texto {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    margin-left: 0px;
+    width: 1440px;
+    height: 870px;
+    border-left: solid #FFCA0E 20px;
+}
+.texto_introdutorio {
+    text-align: center;
+    font-size: large;
+    position: absolute;
+    width: 650px;
+    height: 200px;
+    left: 557px;
+    top: 200px;
+    background-color: aliceblue;   
+}
