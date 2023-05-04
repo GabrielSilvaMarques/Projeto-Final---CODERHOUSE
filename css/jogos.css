@@ -35,13 +35,12 @@ body {
 
 .jogos {
     position: absolute;
-    text-decoration: none;
-    color: aliceblue;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    position: absolute;
-    width: 1448px;
+    width: 70%;
     height: 907px;
-    left: 199px;
+    left: 15%;
+    right: 40%;
     top: 200px;
 }

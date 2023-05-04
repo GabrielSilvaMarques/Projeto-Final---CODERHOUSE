@@ -25,14 +25,42 @@ body {
 }
 
 .container_principal {
-    font-size: large;
+    color: #092E3A;
+    font-size: medium;
     background-color: rgb(220, 230, 226);
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 1448px;
-    height: 907px;
-    left: 199px;
-    top: 117px;
+    position: relative;
+    width: 78%;
+    height: 80%;
+    left: 10%;
+    top: 6%;
     border: solid #FFCA0E 20px;
+}
+
+.container_principal img {
+    position: relative;
+    top: 7%;
+    left: 2%;
+    width: 350px;
+    height: 600px;
+    bottom: 3%;
+    
+}
+
+.container_principal article {
+    text-align: center;
+    line-height: 2;
+    position: relative;
+    width: 60%;
+    top: 5%;
+    left: 10%;
+    bottom: 3%;
+
+}
+
+.container_principal iframe {
+    border: solid #FFCA0E 5px;
+    height: 200px;
+    width: 400px;
 }

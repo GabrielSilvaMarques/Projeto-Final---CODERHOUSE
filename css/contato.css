@@ -23,3 +23,17 @@ body {
     background-blend-mode: darken;
     color: aliceblue;
 }
+
+.container {
+    color: black;
+    font-size: large;
+    background-color: rgb(230, 232, 235);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 80%;
+    height: 30%;
+    left: 9.5%;
+    top: 5%;
+    border: solid #FFCA0E 15px;
+}

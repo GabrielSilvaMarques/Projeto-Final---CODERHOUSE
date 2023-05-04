@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;700;800;900&display=swap');
 
 html {
     width: 100%;
@@ -12,6 +12,7 @@ html {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
 }
+
 body {
     background-image: url(/images/Padrão\ pokemon.png);
     background-repeat: none;
@@ -26,32 +27,61 @@ body {
     display: flex;
     flex-direction: row;
     position: absolute;
-    width: 1448px;
-    height: 907px;
-    left: 199px;
-    top: 117px;
-    border: solid #FFCA0E 20px;
+    width: 80%;
+    height: 93%;
+    left: 9.5%;
+    top: 5%;
+    border: solid #FFCA0E 15px;
 }
 
 .menu_navigation {
+    color: #092E3A;
     background-position: center;
     background-repeat: none;
     background-image:url(/images/padrão\ menu.jpg);
-    display :flex;
-    justify-content: center;
     position: relative;
-    width: 480px;
-    height: 870px;
-    left: 0px;
+    width: 27%;
+    height: 100%;
+    left: 0%;
     mix-blend-mode: normal;
     border-right: solid #5C9BAF 20px;
+}
+.menu {
+    font-weight: 900;
+    -webkit-text-stroke: 1px #e0e4e6;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    text-decoration: underline;
+    border-bottom: 2px solid #092E3A;
+}
+
+.list-menu {
+    text-decoration: none;
+    list-style: none;
+    line-height: 4;
+    font-size: large;
+    font-weight: 900;
+    padding: 20%;
+    position: absolute;
+    top: 20%;
+    
+}
+.contato {
+    position: absolute;
+    left: 1px; ;
+    
+}
+.sub {
+    font-weight: 700;
+    font-size: 180%;
 }
 
 /* Box do texto principal */
 .titulo {
     position: absolute;
-    height: 100px ;
-    width:500px ;
+    height: 10% ;
+    width:30% ;
     top: 10%;
     left: 60%;
     transform: translate(-50%, -50%);
@@ -62,9 +92,9 @@ body {
     display: flex;
     align-items: center;
     background-color: rgb(230, 232, 235);
-    margin-left: 0px;
-    width: 1440px;
-    height: 870px;
+    margin-left: 0%;
+    width: 80%;
+    height: 100%;
     border-left: solid #FFCA0E 20px;
 }
 
@@ -72,10 +102,10 @@ body {
     text-align: center;
     font-size: large;
     position: absolute;
-    width: 750px;
-    height: 400px;
-    left: 510px;
-    top: 200px;
+    width: 50%;
+    height: 50%;
+    left: 35%;
+    top: 23%;
     background-color: rgb(230, 232, 235);   
 }
 .timeline {
@@ -83,7 +113,8 @@ body {
     border: solid #FFCA0E 5px ;
     top: 65%;
     left: 9.5%;
-    width: 650px;
-    height: 400px;
+    width: 80%;
+    height: 90%;
    
 }
+
