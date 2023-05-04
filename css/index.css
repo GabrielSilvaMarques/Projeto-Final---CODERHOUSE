@@ -1,6 +1,16 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+*{
     list-style: none;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 body {
     background-image: url(/images/Padrão\ pokemon.png);
@@ -24,11 +34,10 @@ body {
 }
 
 .menu_navigation {
-    background
     background-position: center;
     background-repeat: none;
     background-image:url(/images/padrão\ menu.jpg);
-    display: flex;
+    display :flex;
     justify-content: center;
     position: relative;
     width: 480px;
@@ -38,10 +47,6 @@ body {
     border-right: solid #5C9BAF 20px;
 }
 
-.menu_navigation .list-menu {
-    
-    
-}
 /* Box do texto principal */
 .titulo {
     position: absolute;
@@ -62,6 +67,7 @@ body {
     height: 870px;
     border-left: solid #FFCA0E 20px;
 }
+
 .texto_introdutorio {
     text-align: center;
     font-size: large;

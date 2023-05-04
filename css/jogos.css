@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
+
+
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Inter', sans-serif;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    border: none;
+
+}
+
+header {
+    font-style: normal;
+    color: #7CE0FF;
+    position: absolute;
+    width: 50%;
+    height: 3%;
+    left: 600px;
+    top: 100px;
+}
+
+body {
+    background-image: url(/images/Padrão\ pokemon.png);
+    background-repeat: none;
+    background-size: 180%;
+    background-color: rgb(36, 36, 36);
+    background-blend-mode: darken;
+    color: aliceblue;
+}
+
+.jogos {
+    position: absolute;
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1448px;
+    height: 907px;
+    left: 199px;
+    top: 200px;
+}
