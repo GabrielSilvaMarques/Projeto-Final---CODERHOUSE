@@ -42,7 +42,7 @@ body {
     position: relative;
     width: 480px;
     height: 870px;
-    left: 10px;
+    left: 0px;
     mix-blend-mode: normal;
     border-right: solid #5C9BAF 20px;
 }
@@ -74,7 +74,7 @@ body {
     position: absolute;
     width: 750px;
     height: 400px;
-    left: 500px;
+    left: 510px;
     top: 200px;
     background-color: rgb(230, 232, 235);   
 }
@@ -82,7 +82,7 @@ body {
     position: absolute;
     border: solid #FFCA0E 5px ;
     top: 65%;
-    left: 10%;
+    left: 9.5%;
     width: 650px;
     height: 400px;
    
