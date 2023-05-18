@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
+
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  color: #7CE0FF;
+  position: absolute;
+  width: 50%;
+  height: 3%;
+  left: 60%;
+  top: 4%;
+  transform: translateX(-50%);
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  border: none;
+}
+
+body {
+
+  background-image: url(/images/Padrão\ pokemon.png);
+  background-repeat: none;
+  background-size: 180%;
+  background-color: rgb(36, 36, 36);
+  background-blend-mode: darken;
+  color: aliceblue;
+}
+
+.container_principal {
+  color: #092E3A;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-size: medium;
+  background-color: rgb(220, 230, 226);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Centralizar horizontalmente */
+  align-items: center; /* Centralizar verticalmente */
+  width: 78%;
+  height: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: solid #FFCA0E 20px;
+}
+
+.container_principal img {
+  width: 30%; 
+  max-width: 350px; 
+  height: auto;
+}
+
+.container_principal article {
+  border: solid #5C9BAF 15px;
+  text-align: justify;
+  line-height: 2;
+  width: 60%; /* Redimensionar proporcionalmente */
+  max-width: 800px; /* Limite de tamanho máximo */
+  height: 88%; /* Redimensionar proporcionalmente */
+  overflow: auto;
+}
+
+.container_principal iframe {
+  border: solid #FFCA0E 5px;
+  width: 100%; /* Redimensionar proporcionalmente */
+  max-width: 600px; /* Limite de tamanho máximo */
+  height: 300px;
+}
+
+footer {
+    position: absolute;
+}
