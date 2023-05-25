@@ -24,16 +24,21 @@ body {
 .container_principal {
     font-size: large;
     background-color: aquamarine;
+    position: relative;
+    left: 180px;
+    top: 40px;
     display: flex;
     flex-direction: row;
     width: 80vw;
     height: 90vh;
     border: solid #FFCA0E 15px;
+    
 }
 
 .menu_navigation {
     display: flex;
     flex-direction: column;
+    overflow: auto;
     color: #092E3A;
     background-position: center;
     background-repeat: none;

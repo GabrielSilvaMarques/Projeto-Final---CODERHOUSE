@@ -27,6 +27,8 @@ header {
   border: none;
 }
 
+/* body */
+
 body {
 
   background-image: url(/images/Padrão\ pokemon.png);
@@ -84,8 +86,44 @@ body {
 }
 
 footer {
+  position:absolute;
   left: 0;
   bottom: 0;
   margin-top: 50%;
   width: 100%;
 }
+/* Menu em caixa */
+.box-menu{
+  background-color: #5C9BAF;
+  padding: 10px;
+  display: flex;
+  flex: row;
+  gap: 10px;
+}
+
+.box-menu>li>a>img{
+  height: 30px;
+}
+
+.menu-wrapper{
+  background-color: yellow;
+  padding: 3px;
+  margin-left: 50px;
+  height: 55px;
+}
+
+/* pseudoclasses - box menu */
+.item-1:hover {
+  
+}
+
+.item-2:hover {
+  
+}
+
+.item-3:hover {
+  
+}
+
+
+

@@ -1,8 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
 
-header{
-    margin-top: 50px;
-}
+header {
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    color: #7CE0FF;
+    position: absolute;
+    margin: auto;
+    width: 75%;
+    height: 3%;
+    left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+  }
+
 
 .box-menu{
     background-color: #5C9BAF;
@@ -12,7 +23,7 @@ header{
     gap: 10px;
 }
 
-.box-menu>li>img{
+.box-menu>li>a>img{
     height: 30px;
 }
 
@@ -68,7 +79,7 @@ body {
 }
 
 footer {
-
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
