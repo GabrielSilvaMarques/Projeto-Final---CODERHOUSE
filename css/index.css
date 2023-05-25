@@ -4,7 +4,7 @@ html {
     width: 100%;
     height: 100%;
     font-size: 100%;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 *{
@@ -62,18 +62,25 @@ body {
 }
 
 .list-menu {
+    width: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: start;
     line-height: 4;
     font-size: large;
     font-weight: 900;
-    padding: 20%;
-    position: absolute;
-    top: 20%;
-    
+    position: relative;
+    top: 50%;   
 }
+.list-menu>li>a>img {
+    width: 30px;
+}
+
+.list-menu>li> {
+    color: aquamarine;
+}
+
 .contato {
     position: absolute;
     left: 1px; ;
@@ -86,22 +93,23 @@ body {
 
 /* Box do texto principal */
 .titulo {
-    position: absolute;
+    position: relative;
     height: 10% ;
-    width:30% ;
-    top: 10%;
-    left: 60%;
+    width:40% ;
+    top: 60px;
+    left: 200px;
     transform: translate(-50%, -50%);
    
 }
 
 .box_texto {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     overflow: auto;
-    background-color: rgb(230, 232, 235);
-    margin-left: 0%;
-    width: 80%;
+    background-color:rgb(230, 232, 235);
+    width: 100%;
     height: 100%;
     border-left: solid #FFCA0E 20px;
 }
@@ -110,20 +118,18 @@ body {
     overflow: auto;
     text-align: center;
     font-size: large;
-    position: absolute;
-    width: 50%;
+    position: relative;
+    width: 80%;
     height: 50%;
-    left: 35%;
-    top: 23%;
+    top: 100px;
     background-color: rgb(230, 232, 235);   
 }
 .timeline {
-    position: absolute;
+    position: relative;
     border: solid #FFCA0E 5px ;
-    top: 65%;
-    left: 9.5%;
-    width: 80%;
-    height: 90%;
+    top: 10px;
+    width: 550px;
+    height: 350px;
 }
 
 footer {
@@ -134,3 +140,16 @@ footer {
     width: 100%;
   }
 
+  .list-menu>li>a:hover img {
+    transform: scale(1.2);
+  }
+.list-menu>li>a {
+    text-decoration: none;
+}
+
+.list-menu li:hover a {
+    color: #bd9a00;
+  }
+.list-menu li:active a {
+    color: #756415;
+}
