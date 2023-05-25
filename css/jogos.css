@@ -7,7 +7,7 @@ header {
     color: #7CE0FF;
     position: absolute;
     margin: auto;
-    width: 75%;
+    width: 90%;
     height: 3%;
     left: 50%;
     top: 5%;
@@ -30,12 +30,11 @@ header {
 .menu-wrapper{
     background-color: yellow;
     padding: 3px;
-    margin-left: 50px;
     height: 55px;
 }
 
 .titulo{
-    margin-right: 250px;
+    margin: auto;
 }
 
 html {
@@ -79,7 +78,6 @@ body {
 }
 
 footer {
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
