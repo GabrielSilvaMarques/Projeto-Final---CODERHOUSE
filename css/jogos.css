@@ -1,5 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;800&display=swap');
 
+.box-menu{
+    background-color: #5C9BAF;
+    padding: 10px;
+    display: flex;
+    flex: row;
+    gap: 10px;
+}
+
+.box-menu>li>img{
+    height: 50px;
+    
+}
+
+.menu-wrapper{
+    background-color: yellow;
+    padding: 2px;
+}
 
 html {
     width: 100%;
@@ -17,11 +34,8 @@ html {
 header {
     font-style: normal;
     color: #7CE0FF;
-    position: absolute;
-    width: 50%;
-    height: 3%;
-    left: 600px;
-    top: 100px;
+    display: flex;
+    flex: row;
 }
 
 body {

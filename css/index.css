@@ -26,11 +26,8 @@ body {
     background-color: aquamarine;
     display: flex;
     flex-direction: row;
-    position: absolute;
-    width: 80%;
-    height: 93%;
-    left: 9.5%;
-    top: 5%;
+    width: 80vw;
+    height: 90vh;
     border: solid #FFCA0E 15px;
 }
 
