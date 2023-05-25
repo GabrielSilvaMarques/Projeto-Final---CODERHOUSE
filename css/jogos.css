@@ -13,13 +13,18 @@ header{
 }
 
 .box-menu>li>img{
-    height: 50px;
+    height: 30px;
 }
 
 .menu-wrapper{
     background-color: yellow;
-    padding: 2px;
-    margin-left: 100px;
+    padding: 3px;
+    margin-left: 50px;
+    height: 55px;
+}
+
+.titulo{
+    margin-right: 250px;
 }
 
 html {
