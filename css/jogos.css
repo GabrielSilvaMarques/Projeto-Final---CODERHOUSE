@@ -32,7 +32,9 @@ html {
 }
 
 header {
-    font-style: normal;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
     color: #7CE0FF;
     display: flex;
     flex: row;
@@ -58,3 +60,10 @@ body {
     right: 40%;
     top: 200px;
 }
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }

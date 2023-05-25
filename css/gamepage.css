@@ -8,15 +8,16 @@ html {
 }
 
 header {
+  font-size: medium;
   display: flex;
-  flex-direction: row;
-  font-style: normal;
+  justify-content: space-between;
   color: #7CE0FF;
   position: absolute;
-  width: 50%;
+  margin: auto;
+  width: 75%;
   height: 3%;
-  left: 60%;
-  top: 4%;
+  left: 50%;
+  top: 5%;
   transform: translateX(-50%);
 }
 
@@ -41,11 +42,13 @@ body {
   padding-left: 2%;
   padding-right: 2%;
   font-size: medium;
-  background-color: rgb(220, 230, 226);
+  background-position: center;
+  background-repeat: none;
+  background-image:url(/images/padrão\ menu.jpg);
   display: flex;
   flex-direction: row;
-  justify-content: space-between; /* Centralizar horizontalmente */
-  align-items: center; /* Centralizar verticalmente */
+  justify-content: space-between; 
+  align-items: center; 
   width: 78%;
   height: 80%;
   position: absolute;
@@ -63,21 +66,25 @@ body {
 
 .container_principal article {
   border: solid #5C9BAF 15px;
+  background-color: rgb(248, 236, 221);
   text-align: justify;
-  line-height: 2;
-  width: 60%; /* Redimensionar proporcionalmente */
-  max-width: 800px; /* Limite de tamanho máximo */
-  height: 88%; /* Redimensionar proporcionalmente */
+  line-height: 1.5;
+  width: 60%; 
+  max-width: 800px; 
+  height: 88%; 
   overflow: auto;
 }
 
 .container_principal iframe {
   border: solid #FFCA0E 5px;
-  width: 100%; /* Redimensionar proporcionalmente */
-  max-width: 600px; /* Limite de tamanho máximo */
+  width: 100%; 
+  max-width: 600px;
   height: 300px;
 }
 
 footer {
-    position: absolute;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }

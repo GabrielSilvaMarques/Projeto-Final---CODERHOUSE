@@ -32,6 +32,8 @@ body {
 }
 
 .menu_navigation {
+    display: flex;
+    flex-direction: column;
     color: #092E3A;
     background-position: center;
     background-repeat: none;
@@ -44,6 +46,7 @@ body {
     border-right: solid #5C9BAF 20px;
 }
 .menu {
+    height: auto;
     font-weight: 900;
     -webkit-text-stroke: 1px #e0e4e6;
     position: absolute;
@@ -54,8 +57,10 @@ body {
 }
 
 .list-menu {
-    text-decoration: none;
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
     line-height: 4;
     font-size: large;
     font-weight: 900;
@@ -88,6 +93,7 @@ body {
 .box_texto {
     display: flex;
     align-items: center;
+    overflow: auto;
     background-color: rgb(230, 232, 235);
     margin-left: 0%;
     width: 80%;
@@ -96,6 +102,7 @@ body {
 }
 
 .texto_introdutorio {
+    overflow: auto;
     text-align: center;
     font-size: large;
     position: absolute;
@@ -114,4 +121,12 @@ body {
     height: 90%;
    
 }
+
+footer {
+    color: #e0e4e6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 
