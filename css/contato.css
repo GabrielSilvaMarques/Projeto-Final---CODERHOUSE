@@ -8,6 +8,38 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+header {
+        font-size: medium;
+        display: flex;
+        justify-content: space-between;
+        color: #7CE0FF;
+        position: absolute;
+        margin: auto;
+        width: 75%;
+        height: 3%;
+        left: 50%;
+        top: 5%;
+        transform: translateX(-50%);
+      }
+  .box-menu{
+    background-color: #5C9BAF;
+    padding: 10px;
+    display: flex;
+    flex: row;
+    gap: 10px;
+  }
+  
+  .box-menu>li>a>img{
+    height: 30px;
+  }
+  
+  .menu-wrapper{
+    background-color: yellow;
+    padding: 3px;
+    margin-left: 50px;
+    height: 55px;
+  }
+
 *{
     list-style: none;
     text-decoration: none;
@@ -29,13 +61,15 @@ body {
     font-size: large;
     background-color: rgb(230, 232, 235);
     display: flex;
-    flex-direction: row;
-    position: absolute;
+    flex-direction: column;
+    position: relative;
     width: 80%;
     height: 30%;
-    left: 9.5%;
-    top: 5%;
+    left: 30px;
+    top: 70px;
     border: solid #FFCA0E 15px;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {

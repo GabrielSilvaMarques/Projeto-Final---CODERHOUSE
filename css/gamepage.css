@@ -53,7 +53,7 @@ body {
   align-items: center; 
   width: 78%;
   height: 80%;
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -63,16 +63,17 @@ body {
 
 .container_principal img {
   width: 30%; 
-  max-width: 250px; 
+  max-width: 350px; 
   height: auto;
 }
 
 .container_principal article {
-  border: solid #5C9BAF 15px;
+  font-family: 'Roboto', sans-serif;
+  border: solid #5C9BAF 10px;
   background-color: rgb(248, 236, 221);
   text-align: justify;
-  line-height: 1.5;
-  width: 60%; 
+  line-height: 2;
+  width: 100%; 
   max-width: 800px; 
   height: 88%; 
   overflow: auto;
@@ -83,6 +84,8 @@ body {
   width: 100%; 
   max-width: 600px;
   height: 300px;
+  position: relative;
+  left: 12%;
 }
 
 footer {
@@ -113,17 +116,10 @@ footer {
 }
 
 /* pseudoclasses - box menu */
-.item-1:hover {
-  
+.box-menu li a:hover img {
+  transform: scale(1.2);
 }
 
-.item-2:hover {
-  
-}
-
-.item-3:hover {
-  
-}
 
 
 

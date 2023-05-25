@@ -69,12 +69,15 @@ body {
 }
 
 .jogos {
-    list-style-type: none;
     display: flex;
-    max-width: 100%;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: auto;    
+    height: auto;
 
 }
 
@@ -83,4 +86,17 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+  }
+
+  /* psudoclasses */
+  .box-menu li a:hover img {
+    transform: scale(1.2);
+  }
+
+  .jogos li img {
+    transition: transform 0.5s ease;
+  }
+
+  .jogos li img:hover {
+    transform: scale(1.06);
   }
