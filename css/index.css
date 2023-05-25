@@ -127,9 +127,9 @@ body {
 .timeline {
     position: relative;
     border: solid #FFCA0E 5px ;
-    top: 10px;
-    width: 550px;
-    height: 350px;
+    top: 0px;
+    width: 450px;
+    height: 250px;
 }
 
 footer {
