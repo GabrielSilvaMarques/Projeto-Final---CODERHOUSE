@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;700;800;900&display=swap');
+    
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(/images/Padrão\ pokemon.png);
+    background-repeat: none;
+    background-size: 180%;
+    background-color: rgb(36, 36, 36);
+    background-blend-mode: darken;
+    
+}
+.container_principal {
+    font-size: large;
+    background-color: aquamarine;
+    position: relative;
+    left: 180px;
+    top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 90vh;
+    border: solid #FFCA0E 15px;
+    border-radius: 15px;
+    
+}
+
+.menu_navigation {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    color: #092E3A;
+    background-position: center;
+    background-repeat: none;
+    background-image:url(/images/padrão\ menu.jpg);
+    position: relative;
+    width: 27%;
+    height: 100%;
+    left: 0%;
+    mix-blend-mode: normal;
+    border-right: solid #5C9BAF 20px;
+}
+.menu {
+    height: auto;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #e0e4e6;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    text-decoration: underline;
+    border-bottom: 2px solid #092E3A;
+}
+
+.list-menu {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    line-height: 4;
+    font-size: large;
+    font-weight: 900;
+    position: relative;
+    top: 50%;   
+}
+.list-menu>li>a>img {
+    width: 30px;
+}
+
+.list-menu>li> {
+    color: aquamarine;
+}
+
+.contato {
+    position: absolute;
+    left: 1px; ;
+    
+}
+.sub {
+    font-weight: 700;
+    font-size: 180%;
+}
+
+/* Box do texto principal */
+.titulo {
+    position: relative;
+    height: 10% ;
+    width:40% ;
+    top: 60px;
+    left: 200px;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background-color:rgb(230, 232, 235);
+    width: 100%;
+    height: 100%;
+    border-left: solid #FFCA0E 20px;
+}
+
+.texto_introdutorio {
+    overflow: auto;
+    text-align: center;
+    font-size: large;
+    position: relative;
+    width: 80%;
+    height: 90%;
+    top: 100px;
+    background-color: rgb(230, 232, 235);   
+}
+.timeline {
+    position: relative;
+    border: solid #FFCA0E 5px ;
+    top: 0px;
+    width: 450px;
+    height: 250px;
+}
+
+footer {
+    color: #e0e4e6;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(223, 194, 34),rgb(196, 172, 36));
+  }
+
+  .list-menu>li>a:hover img {
+    transform: scale(1.2);
+  }
+.list-menu>li>a {
+    text-decoration: none;
+}
+
+.list-menu li:hover a {
+    color: #bd9a00;
+  }
+.list-menu li:active a {
+    color: #756415;
+}
+
+@media only screen and (max-width: 740px) {
+
+.container_principal {
+    left: 40px;
+    max-width: 650px;
+    max-height: auto;
+}
+.menu_navigation  {
+    
+}
+.titulo {
+    min-width: 150px;
+    max-width: 100px;
+    min-height: auto;
+    max-height: auto;
+    left:80px;
+}
+.box_texto {
+max-width: 100%;
+align-items: center;
+justify-content: center;
+}
+}
