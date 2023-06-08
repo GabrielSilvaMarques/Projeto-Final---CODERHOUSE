@@ -9,17 +9,17 @@ html {
 }
 
 header {
-        font-size: medium;
-        display: flex;
-        justify-content: space-between;
-        color: #7CE0FF;
-        position: absolute;
-        margin: auto;
-        width: 75%;
-        height: 3%;
-        left: 50%;
-        top: 5%;
-        transform: translateX(-50%);
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+  color: #7CE0FF;
+  position: absolute;
+  margin: auto;
+  width: 75%;
+  height: 3%;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
       }
   .box-menu{
     background-color: #5C9BAF;
@@ -27,6 +27,7 @@ header {
     display: flex;
     flex: row;
     gap: 10px;
+    border-radius: 15px;
   }
   
   .box-menu>li>a>img{
@@ -38,6 +39,7 @@ header {
     padding: 3px;
     margin-left: 50px;
     height: 55px;
+    border-radius: 15px;
   }
 
 *{
@@ -62,7 +64,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    width: 1000px;
+    width: 100%;
     height: 30%;
     left: 30px;
     top: 200px;
@@ -70,16 +72,57 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: 300;
+    overflow: auto;
 }
 
 footer {
-  color: aliceblue;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-image: linear-gradient(to bottom,rgb(223, 194, 34),rgb(196, 172, 36));
+}
 
   .box-menu li a:hover img {
     transform: scale(1.2);
+  }
+
+  @media only screen and (max-width: 540px) {
+
+    .header{
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 10px;
+      margin: 10px;
+  }
+  .titulo {
+      font-size: medium;
+  }
+  .menu-wrapper{
+      max-width: 90px;
+      max-height: 100px;
+  }
+  .box-menu{
+      max-width: 90px;
+      max-height: 100px;
+  }
+  .menu-wrapper ul li a img{
+      max-width: 15px;
+      max-height: 15px;
+  }
+    .container {
+      position: relative;
+      margin-right: 100px;
+      max-width: 240px;
+      max-height: auto;
+      overflow: auto;
+      font-size: small;
+      text-align: justify;
+    }
+    .footer {
+      width: 100%;
+      bottom: 0px;
+    }
   }

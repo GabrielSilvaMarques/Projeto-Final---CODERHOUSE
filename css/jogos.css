@@ -3,6 +3,7 @@
 header {
     font-size: medium;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     color: #7CE0FF;
     position: absolute;
@@ -21,6 +22,7 @@ header {
     display: flex;
     flex: row;
     gap: 10px;
+    border-radius: 15px;
 }
 
 .box-menu>li>a>img{
@@ -31,9 +33,11 @@ header {
     background-color: yellow;
     padding: 3px;
     height: 55px;
+    border-radius: 15px;
 }
 
 .titulo{
+    flex-direction: column;
     margin: auto;
 }
 
@@ -72,19 +76,19 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 200px;
     width: auto;    
     height: auto;
 
 }
 
 footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to bottom,rgb(223, 194, 34),rgb(196, 172, 36));
   }
 
   /* psudoclasses */
@@ -93,9 +97,51 @@ footer {
   }
 
   .jogos li img {
+    border:solid rgb(223, 194, 34) ;
+    border-radius: 15px;
     transition: transform 0.5s ease;
   }
 
   .jogos li img:hover {
     transform: scale(1.06);
+    flex-direction:col;
+  }
+
+  @media only screen and (max-width: 540px) {
+    .header{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+        margin: 10px;
+    }
+    .titulo {
+        font-size: medium;
+    }
+    .menu-wrapper{
+        max-width: 90px;
+        max-height: 100px;
+    }
+    .box-menu{
+        max-width: 90px;
+        max-height: 100px;
+    }
+    .menu-wrapper ul li a img{
+        max-width: 15px;
+        max-height: 15px;
+    }
+    .jogos {
+        justify-content: space-between;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .jogos img {
+        max-width: 250px;
+        margin-bottom: 15px;
+    }
+  }
+
+  .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
   }

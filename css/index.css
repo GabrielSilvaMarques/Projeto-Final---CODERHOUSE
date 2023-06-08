@@ -32,6 +32,7 @@ body {
     width: 80vw;
     height: 90vh;
     border: solid #FFCA0E 15px;
+    border-radius: 15px;
     
 }
 
@@ -138,6 +139,8 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to bottom,rgb(223, 194, 34),rgb(196, 172, 36));
   }
 
   .list-menu>li>a:hover img {
@@ -152,4 +155,28 @@ footer {
   }
 .list-menu li:active a {
     color: #756415;
+}
+
+@media only screen and (max-width: 740px) {
+
+.container_principal {
+    left: 40px;
+    max-width: 650px;
+    max-height: auto;
+}
+.menu_navigation  {
+    
+}
+.titulo {
+    min-width: 150px;
+    max-width: 100px;
+    min-height: auto;
+    max-height: auto;
+    left:80px;
+}
+.box_texto {
+max-width: 100%;
+align-items: center;
+justify-content: center;
+}
 }
