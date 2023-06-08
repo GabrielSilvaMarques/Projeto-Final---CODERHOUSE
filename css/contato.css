@@ -69,6 +69,7 @@ body {
     left: 30px;
     top: 200px;
     border: solid #FFCA0E 15px;
+    border-radius: 15px;
     justify-content: center;
     align-items: center;
     font-weight: 300;
